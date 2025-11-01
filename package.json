@@ -1,0 +1,14 @@
+{
+  "name": "node18-webapp",
+  "version": "0.1.0",
+  "description": "Minimal Node 18 LTS webapp (http) with a test",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/server.test.js"
+  },
+  "license": "MIT"
+}
